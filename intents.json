@@ -32,15 +32,64 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
       "tag": "fee",
       "patterns": [
-        "how much fee of application form",
+        "how much fee",
         "cost of fee",
         "what is fee",
         "form fee "
       ],
       "responses": [
-        "fee is 500 for ADIT form"
+        "fee is 500"
       ]
     },
     {
@@ -104,8 +153,7 @@
       "tag": "entry_requirements",
       "patterns": [
         "What are the entry requirements for your IT courses?",
-        "Is there a specific background needed to enroll in your programs?",
-        "eligiblity of course"
+        "Is there a specific background needed to enroll in your programs?"
       ],
       "responses": [
         "Our IT courses are designed for individuals with varying levels of experience. Check our website for specific entry requirements.",
@@ -124,7 +172,9 @@
         "You can enroll in our online IT courses, offering flexibility for individuals with busy schedules or those unable to attend in person."
       ]
     },
+   
     {
+      
       "tag": "nsti_hindi",
       "patterns": [
         "nsti ka pura naam kya hai",
@@ -148,6 +198,7 @@
       ]
     },
     {
+      
       "tag": "adit_hindi",
       "patterns": [
         "adit ka pura naam kya hai",
@@ -159,6 +210,8 @@
       "responses": [
         "ADIT ka pura full form Advanced Diploma in Information Technology",
         "ADIT ka pura full form Advanced Diploma on IT Networking and Cloud Computing "
+
+
       ]
     },
     {
@@ -181,6 +234,8 @@
       "responses": [
         "ADIT stands for Advanced Diploma in Information Technology",
         "The full form of ADIT: Advanced Diploma on IT Networking and Cloud Computing "
+
+
       ]
     },
     {
@@ -199,14 +254,14 @@
       ]
     },
     {
+      
       "tag": "eligibility_adit_hindi",
       "patterns": [
         "adit kya karne ke bad kar sakte hai",
         "adit karne ke liye kya kar sakte hai",
         "adit kaise kare",
         "adit kaise kar sakte hai",
-        "adit ke liye kya eligibility hai ",
-        "eligibility of ADIT course"
+        "adit ke liye kya eligibility hai "
       ],
       "responses": [
         "ADIT karne ke liye apko 12th/iti/diploma passout hona chahiye",
@@ -215,6 +270,7 @@
       ]
     },
     {
+      
       "tag": "adit_form_hindi",
       "patterns": [
         "adit ka form kab ata hai",
@@ -226,6 +282,7 @@
       ]
     },
     {
+      
       "tag": "cits_form_hindi",
       "patterns": [
         "cits ka form kab ata hai",
@@ -237,12 +294,15 @@
       ]
     },
     {
+      
       "tag": "duration_hindi",
       "patterns": [
         "adit kitne sal ka course hai",
         "adit course duration kitni hai",
         "adit kitne sal ka hai",
         "adit kitne year ka hai"
+
+
       ],
       "responses": [
         "ADIT do sal ka course hai jisme 18 mahine ki study hogi or 6 mahine 'on job training' bangalore me hogi",
@@ -250,12 +310,15 @@
       ]
     },
     {
+      
       "tag": "cits_duration_hindi",
       "patterns": [
         "cits kitne sal ka course hai",
         "cits course duration kitni hai",
         "cits kitne sal ka hai",
         "cits kitne year ka hai"
+
+
       ],
       "responses": [
         "CITS ek sal ka course hai ",
@@ -263,11 +326,15 @@
       ]
     },
     {
+      
       "tag": "stipend_hindi",
       "patterns": [
         "adit me kitna stipend ata hai",
         "kya adit me paise milte hai",
         "kya adit me scholarship milti hai"
+        
+
+
       ],
       "responses": [
         "Haa ,ADIT me har mahine 3000rs ka stipend 18 mahine tk milta hai",
@@ -275,19 +342,24 @@
       ]
     },
     {
+      
       "tag": "cits_stipend_hindi",
       "patterns": [
         "kya cits karne walo ko stipend milta hai",
         "kya cits me stipend milta hai",
         "kya cits me scholarship milti hai",
         "cits me stipend milta hai kya"
+
+
       ],
       "responses": [
         "Nahi! CITS karne walo ko stipend nhi milta hai",
         "Nahi! CITS karne walo ko scholarship nhi milta hai"
+
       ]
     },
     {
+      
       "tag": "knp_location_hindi",
       "patterns": [
         "kanpur nsti ka pata kya hai",
@@ -300,12 +372,20 @@
         "location of kanpur nsti",
         "address of nsti kanpur",
         "location of nsti kanpur"
+
+
+
+
+      
+
+
       ],
       "responses": [
         "NSTI KANPUR, Udyog Nagar, near CTI Chouraha, Sanjay Nagar, Kanpur, Uttar Pradesh 208022 Phone:-0512-2225340 , 2296088."
       ]
     },
     {
+      
       "tag": "ddn_location_hindi",
       "patterns": [
         "dehradun nsti ka pata kya hai",
@@ -318,12 +398,18 @@
         "location of dehradun nsti",
         "address of nsti dehradun",
         "location of nsti dehradun"
+
+
+      
+
+
       ],
       "responses": [
         "NSTI DEHRADUN, Green Park, Niranjanpur Post Office Majra Dehradun 248171 Phone 0135-2629310 Fax: 0135-2720145"
       ]
     },
     {
+      
       "tag": "ald_location_hindi",
       "patterns": [
         "allahabad nsti ka pata kya hai",
@@ -336,12 +422,18 @@
         "location of allahabad nsti",
         "address of nsti allahabad",
         "location of nsti allahabad"
+
+
+      
+
+
       ],
       "responses": [
         "NSTI ALLAHABAD, 6, New Katra Road Allahabad 211002 Telephone: 0532 2971803"
       ]
     },
     {
+      
       "tag": "pan_location_hindi",
       "patterns": [
         "panipat nsti ka pata kya hai",
@@ -354,12 +446,18 @@
         "location of panipat nsti",
         "address of nsti panipat",
         "location of nsti panipat"
+
+
+      
+
+
       ],
       "responses": [
         "NSTI PANIPAT, Main G.T. Road, Near NFL Township, Panipat-132103 (Haryana) Contact : 0180-2668444-45, 2661044"
       ]
     },
     {
+      
       "tag": "noida_location_hindi",
       "patterns": [
         "noida nsti ka pata kya hai",
@@ -372,12 +470,18 @@
         "location of noida nsti",
         "address of nsti noida",
         "location of nsti noida"
+
+
+      
+
+
       ],
       "responses": [
         "NSTI NOIDA, D-1, Block D, Sector 1, Noida, Uttar Pradesh. PIN - 201301 Telephone : 0120 - 2535266"
       ]
     },
     {
+      
       "tag": "vado_location_hindi",
       "patterns": [
         "vadodara nsti ka pata kya hai",
@@ -390,11 +494,17 @@
         "location of vadodara nsti",
         "address of nsti vadodara",
         "location of nsti vadodara"
+
+
+      
+
+
       ],
       "responses": [
         "NSTI VADODARA, Shanti Nagar,  Tarsali,  Vadodara. Pin - 390 009  (Gujarat) Telephone : 0265-2642678"      ]
     },
     {
+      
       "tag": "indore_location_hindi",
       "patterns": [
         "indore nsti ka pata kya hai",
@@ -407,11 +517,17 @@
         "location of indore nsti",
         "address of nsti indore",
         "location of nsti indore"
+
+
+      
+
+
       ],
       "responses": [
         "NSTI INDORE, Sukliya Road, Nanda Nagar, Indore - 452 011 Phone No.: 0731 2991471"      ]
     },
     {
+      
       "tag": "mumbai_location_hindi",
       "patterns": [
         "mumbai nsti ka pata kya hai",
@@ -424,12 +540,20 @@
         "location of mumbai nsti",
         "address of nsti mumbai",
         "location of nsti mumbai"
+
+
+      
+
+
       ],
       "responses": [
+
         "NSTI MUMBAI, V. N. Purav Marg,Opp. Priyadarshini (RCF),Chunabhatti, Sion Mumbai-400022 Contact No.: 022-24053560"  
+      
       ]
     },
     {
+      
       "tag": "kol_location_hindi",
       "patterns": [
         "kolkata nsti ka pata kya hai",
@@ -442,6 +566,11 @@
         "location of kolkata nsti",
         "address of nsti kolkata",
         "location of nsti kolkata"
+
+
+      
+
+
       ],
       "responses": [
 
@@ -450,6 +579,7 @@
       ]
     },
     {
+      
       "tag": "bhubnesh_location_hindi",
       "patterns": [
         "bhubaneshwar nsti ka pata kya hai",
@@ -462,13 +592,20 @@
         "location of bhubaneshwar nsti",
         "address of nsti bhubaneshwar",
         "location of nsti bhubaneshwar"
+
+
+      
+
+
       ],
       "responses": [
 
         "NSTI BHUBANESWAR, NSIC Building, 5th Floor, IDCO Plot No. 06, Mancheswar Industrial Estate, Bhubaneswar -751010, Odisha Tel: 0674-2974498/ 2974438" 
+      
       ]
     },
     {
+      
       "tag": "hyderabad_location_hindi",
       "patterns": [
         "hyderabad nsti ka pata kya hai",
@@ -481,13 +618,20 @@
         "location of hyderabad nsti",
         "address of nsti hyderabad",
         "location of nsti hyderabad"
+
+
+      
+
+
       ],
       "responses": [
 
         "NSTI HYDERABAD, Vidyanagar, Opposite Shivam Hyderabad - 500007 PH: 040-27428058, 27428606 PH: 040-27428058, 27428606."
+      
       ]
     },
     {
+      
       "tag": "bengaluru_location_hindi",
       "patterns": [
         "bengaluru nsti ka pata kya hai",
@@ -510,12 +654,20 @@
         "location of bangalore nsti",
         "address of nsti bangalore",
         "location of nsti bangalore"
+
+
+      
+
+
       ],
       "responses": [
+
         "NSTI BENGALURU, Outer Ring Road Yeswanthpur Bengaluru- 560 022 (080)29724034"
+      
       ]
     },
     {
+      
       "tag": "calicut_location_hindi",
       "patterns": [
         "calicut nsti ka pata kya hai",
@@ -528,12 +680,20 @@
         "location of calicut nsti",
         "address of nsti calicut",
         "location of nsti calicut"
+
+
+      
+
+
       ],
       "responses": [
+
         "NSTI CALICUT, Govindapuram PO, Calicut, Pin:673016, Kerala State Phone: 0495 2742500"
+      
       ]
     },
     {
+      
       "tag": "thiru_location_hindi",
       "patterns": [
         "thiruvananthapuram nsti ka pata kya hai",
@@ -546,12 +706,20 @@
         "location of thiruvananthapuram nsti",
         "address of nsti thiruvananthapuram",
         "location of nsti thiruvananthapuram"
+
+
+      
+
+
       ],
       "responses": [
+
         "NSTI THIRUVANANTHAPURAM, Kazhakkoottam, Thiruvananthapuram, Kerala 695582 Phone : 0471-2418391"
+      
       ]
     },
     {
+      
       "tag": "chennai_location_hindi",
       "patterns": [
         "chennai nsti ka pata kya hai",
@@ -563,50 +731,209 @@
         "address of chennai nsti",
         "location of chennai nsti",
         "address of nsti chennai",
-        "location of nsti chennai",
-        "how to reach nsti dehradun"
+        "location of nsti chennai"
+
+
+      
+
+
       ],
       "responses": [
+
         "NSTI CHENNAI, CTI Campus, No.10,Alandur Road,Guindy  Industrial Estate, Guindy, Chennai, Tamil Nadu 600032"
+      
+        
       ]
     },
     {
-      "tag": "availability of courses",
+      
+      "tag": "chennai_location_hindi",
       "patterns": [
-        "i want course list",
-        "let me know some course",
-        "share some course",
-        "how many course are there",
-        "course offered by you",
-        "how many courses are available in nsti college"
+        "chennai nsti ka pata kya hai",
+        "chennai nsti ka address",
+        "nsti chennai location",
+        "nsti chennai address",
+        "nsti chennai",
+        "chennai nsti",
+        "address of chennai nsti",
+        "location of chennai nsti",
+        "address of nsti chennai",
+        "location of nsti chennai"
+
+
+      
+
+
       ],
       "responses": [
-        "We have multiple courses like ADIT, CITS, CTS and so on"
+
+        "NSTI CHENNAI, CTI Campus, No.10,Alandur Road,Guindy  Industrial Estate, Guindy, Chennai, Tamil Nadu 600032"
+      
+        
       ]
     },
     {
-      "tag": "CITS_in_nsti",
+      
+      "tag": "hostel_hindi",
       "patterns": [
-        "what is CITS",
-        "tell me something about CITS",
-        "CITS course kya hai"
+        "is there hostel available",
+        "hostel availablity",
+        "is there hostel available or not",
+        "hostel available or not",
+        "hostel available",
+        "available hostel?"
+        
+
       ],
       "responses": [
-        "Craft Instructor Training Scheme",
-        "multiple courses comes under CITS"
+
+        "Yess, in most of the NSTIs have hostels available there but a few of them do not have this facility"
+        
       ]
     },
     {
-      "tag": "NSTI Count",
+      
+      "tag": "hostel_criteria_hindi",
       "patterns": [
-        "how many NSTI in india",
-        "number of nsti",
-        "total nsti in all over india"
+        "eligibility",
+        "criteria to get hostel",
+        "how can i get hostel room",
+        "process of getting hostel room",
+        "process of getting hostel",
+        "hostel room"
+        
+        
+
       ],
       "responses": [
-        "Currently there are 33 NSTIs and 3 extension centres across the country."
+
+        "To get the hostel room the distance of house should be more than 350 km for boys and 250 km for girls. It can vary  from nsti to nsti"
+        
+      ]
+    },
+    {
+      "tag": "abusive_words",
+      "patterns": [
+        "sala ",
+        "lol",
+        ""
+      ],
+      "responses": [
+        "please ! don't use abusive and harse words."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who created you",
+        "who create you",
+        "your owner?",
+        "who made you",
+        "your mother",
+        "your fathar",
+        "your brother",
+        "your sister",
+        "who is your inventor",
+        "who invented you",
+        "tumko kisne banaya"
+      ],
+      "responses": [
+        "ADIT Team"
+      ]
+    },
+    {
+      "tag": "about_trade",
+      "patterns": [
+        "best trade in nsti",
+        "acchi trade"
+      ],
+      "responses": [
+        "All nsti trades are best on their respective place"
+      ]
+    },
+    {
+      "tag": "hostel_fee",
+      "patterns": [
+        "hostel fee",
+        "hostel fees kya hai",
+        "hostel fees"
+      ],
+      "responses": [
+        "Hostel fees lies between 600-1200 rupees"
+      ]
+    },
+    {
+      "tag": "dgt office",
+      "patterns": [
+        "Location of dgt office",
+        "dgt office kahan hai",
+        "dgt office"
+      ],
+      "responses": [
+        "Directorate General of Training, Metro Pillar Number 95, Directorate General of Training, Ministry of Skill Development and Entrepreneurs B-2, Kaushal Bhawan, Pusa Road, Karol Bagh, (Opposite, New Delhi, Delhi 110005"
+      ]
+    },
+    {
+      "tag": "dgt director",
+      "patterns": [
+        "dgt director ",
+        "dgt ke director kaun hai",
+        "dgt head"
+      ],
+      "responses": [
+        "M S Trishaljit sethi"
+      ]
+    },
+    {
+      "tag": "nsti kanpur director",
+      "patterns": [
+        "director of nsti kanpur",
+        "who is regional director",
+        "who is rd of nsti kanpur",
+        "rd nsti kanpur",
+        "nsti kanpur ka rd kaun hai "
+      ],
+      "responses": [
+        "Sh JD Masilamani"
+      ]
+    },
+    {
+      "tag": "dgt_complain",
+      "patterns": [
+        "how to complain dgt",
+        "dgt me complain kaise karen",
+        "dgt complaint number",
+        "dgt complaint email id",
+        "dgt help line number",
+        "how to contact dgt",
+        "email of dgt",
+        "how to reach dgt",
+        "dgt email"
+      ],
+      "responses": [
+        "DGT contact no- 011 24671101 DGT email Id- dirgen-msde@gov.in"
+      ]
+    },
+    {
+      "tag": "placement_availability",
+      "patterns": [
+        "placement ho ga kya",
+        "placement",
+        "placement kaise hota hai"
+      ],
+      "responses": [
+        "Ther is chance of placement in every nsti in every trade and courses "
       ]
     }
+
+
+
+    
+    
+
+    
+
+    
 
   ]
 }
